@@ -4,9 +4,34 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: 'Circular',
+    h2: {
+      fontSize: "4.688vw"
+    }
+  },
+  palette: {
+    neutral: {
+      main: '#F1EF70',
+    },
+    primary: {
+      main: "#07F2B4",
+    },
+    secondary: {
+      main: "#EC5076",
+    },
+  }
+});
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
