@@ -1,0 +1,19 @@
+.container {
+   background: black;
+}
+/* background-image: linear-gradient(to top, #434343 0%, black 100%); */
+.move {
+    animation: blink-animation 2.5s steps(20, start) infinite;
+}
+
+@keyframes blink-animation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

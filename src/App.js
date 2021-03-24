@@ -7,7 +7,6 @@ import Header from './components/Header';
 function App() {
   return (
     <Router>
-      <Header />
       <Route exact path="/" render={() => <Redirect to="/home" />} />
       <Route path="/" render={props => <HomeSkeleton {...props} />} />
     </Router>
