@@ -9,8 +9,7 @@ Yellow: F1EF70
 Green: 268540
 
 
-**Changes made => using Next JS and typescript**
-
+**Changes made => using Next JS and typescript**<br />
 
 important notes about typescript for my future reference. 
 
