@@ -14,7 +14,7 @@ type StringArray = Array<string>;
   
 type NumberArray = Array<number>;
   
-type ObjectWithNameArray = Array<{ name: string }>;
+type ObjectWithNameArray = Array<{ name: string }>; <br>
 **you can also add a type check to the contents of the arry as shown above**
 <br><br>
 
