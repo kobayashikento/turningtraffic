@@ -1,6 +1,17 @@
 **3/25 Completely rebuidling project while keeping existing elements**
 
 **Changes made => using Next JS and typescript**
+important notes about typescript for my future reference. 
+
+Generics i.e. 
+
+type StringArray = Array<string>;
+  
+type NumberArray = Array<number>;
+  
+type ObjectWithNameArray = Array<{ name: string }>;
+
+**you can also add a type check to the contents of the arry as shown above**
 
 Turning Traffic Webiste. 
 https://turningtraffic.vercel.app/
