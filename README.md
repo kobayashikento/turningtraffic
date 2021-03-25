@@ -1,5 +1,14 @@
 **3/25 Completely rebuidling project while keeping existing elements**
 
+Turning Traffic Webiste. 
+https://turningtraffic.vercel.app/
+
+Main Colors of the traffic light
+Red: AA1E24
+Yellow: F1EF70
+Green: 268540
+
+
 **Changes made => using Next JS and typescript**
 important notes about typescript for my future reference. 
 
@@ -13,10 +22,3 @@ type ObjectWithNameArray = Array<{ name: string }>;
 
 **you can also add a type check to the contents of the arry as shown above**
 
-Turning Traffic Webiste. 
-https://turningtraffic.vercel.app/
-
-Main Colors of the traffic light
-Red: AA1E24
-Yellow: F1EF70
-Green: 268540
