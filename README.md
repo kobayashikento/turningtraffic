@@ -10,6 +10,8 @@ Green: 268540
 
 
 **Changes made => using Next JS and typescript**
+
+
 important notes about typescript for my future reference. 
 
 Generics i.e. 
