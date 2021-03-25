@@ -21,4 +21,4 @@ type ObjectWithNameArray = Array<{ name: string }>;
 **you can also add a type check to the contents of the arry as shown above**
 
 **Another important note, you can dynamically set the "type" later on by assign "Type", then later on declaring its type**
-[Uploading キャプチャ.PNG…]()
+![alt text](https://github.com/kobayashikento/turningtraffic/src/assests/readme_pictures/キャプチャ.png/?raw=true)
