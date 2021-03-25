@@ -6,10 +6,10 @@ https://turningtraffic.vercel.app/
 
 Main Colors of the traffic light
 Red: AA1E24 Yellow: F1EF70 Green: 268540
-
 <br><br>
 **Important notes about typescript for my future reference. **
 1. **Generics i.e. **
+
 type StringArray = Array<string>;
   
 type NumberArray = Array<number>;
